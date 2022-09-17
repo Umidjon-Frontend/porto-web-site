@@ -62,7 +62,7 @@ body {
 /* ---CONTAINER---------------------------------------------- */
 ._container {
     max-width: 1108px;
-    padding: 0 15px;
+    padding: 0px 15px 0px 15px;
     margin: 0 auto;
     box-sizing: content-box;
 }
@@ -70,6 +70,11 @@ body {
 
 /* ---DUPLICATE PARTS---------------------------------------------- */
 /* coding here */
+.title {
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    font-weight: 700;
+}
 /* ---DUPLICATE PARTS END---------------------------------------------- */
 
 /* ---IMG BG---------------------------------------------- */
@@ -96,6 +101,7 @@ body {
     left: 0;
     top: 0;
     z-index: 50;
+    padding: 0px 15px;
 }
 .header__container {
     display: flex;
@@ -169,9 +175,11 @@ body {
 /* ---PAGE---------------------------------------------- */
 /* STYLING CLASS */
 .page{
-
 }
 .page__texts-section {
+    padding: 0px 15px;
+}
+.page__about-section {
 }
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
@@ -210,9 +218,10 @@ body {
 /* STYLING CLASS */
 
 .texts-section {
+    height: 100vh;
 }
 .texts-section__container {
-    padding: 267px 0px 0px 0px;
+    padding: 267px 0px 240px 0px;
 }
 .texts-section__head {
     position: absolute;
@@ -236,6 +245,7 @@ body {
 .texts-section__bg {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .texts-section__body {
     position: relative;
@@ -292,6 +302,63 @@ body {
 /* MEDIA QUERY END*/
 /* ---SECTION NAME END---------------------------------------------- */
 
+/* ---about---------------------------------------------- */
+/* STYLING CLASS */
+
+.about-section {
+    background-color: var(--bg-color);
+    min-height: 544px;
+}
+.about-section__container {
+    padding: 93px 0px 0px 0px;
+}
+.about-section__body {
+}
+.about-section__title {
+    margin: 0px 0px 76px 0px;
+}
+
+.about-section__texts {
+}
+.about-section__text {
+    line-height: calc(30 / 18 * 100%);
+    text-align: justify;
+}
+.about-section__text:not(:last-child){
+    margin: 0px 0px 40px 0px;
+}
+/* STYLING CLASS END*/
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+/* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+/* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+/* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+/* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+/* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+/* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+/* classes */
+}
+/* MEDIA QUERY END*/
+/* ---about END---------------------------------------------- */
 
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
