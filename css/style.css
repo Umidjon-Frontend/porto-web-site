@@ -56,6 +56,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 /* ---WRAPPER END---------------------------------------------- */
 
@@ -74,6 +75,12 @@ body {
     font-size: 24px;
     line-height: calc(29 / 24 * 100%);
     font-weight: 700;
+}
+.scroll_top{
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    cursor: pointer;
 }
 /* ---DUPLICATE PARTS END---------------------------------------------- */
 
@@ -184,6 +191,8 @@ body {
 .page__skills-section {
 }
 .page__portfolio-section {
+}
+.page__get-in-touch-section {
 }
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
@@ -560,8 +569,46 @@ body {
 
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
-.footer{
 
+.get-in-touch-section {
+    background-color: #FFFAF2;
+    min-height: 528px;
+}
+.get-in-touch-section__container {
+    padding: 93px 0px 0px 0px;
+}
+.get-in-touch-section__body {
+}
+.get-in-touch-section__title {
+    margin: 0px 0px 51px 0px;
+}
+.get-in-touch-section__items {
+    display: flex;
+    justify-content: space-between;
+}
+.get-in-touch-section__item {
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch-section__item a:not(:last-child){
+    margin: 0px 0px 14px 0px;
+}
+.get-in-touch-section__item a{
+    line-height: calc(21 / 18 * 100%);
+    color: #333;
+}
+.portfolio__link {
+}
+.portfolio__link-item {
+}
+.social__network {
+}
+.social__network-item {
+}
+.email__phone {
+    margin: 0px 179px 0px 0px;
+}
+.email__phone-item {
 }
 /* STYLING CLASS END*/
 
