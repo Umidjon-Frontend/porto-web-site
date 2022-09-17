@@ -183,6 +183,8 @@ body {
 }
 .page__skills-section {
 }
+.page__portfolio-section {
+}
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
 @media (max-width: 2560px) {
@@ -458,6 +460,103 @@ body {
 }
 /* MEDIA QUERY END*/
 /* ---skills END---------------------------------------------- */
+
+/* ---portfolio---------------------------------------------- */
+/* STYLING CLASS */
+
+.portfolio-section {
+    min-height: 822px;
+    background-color: var(--bg-color);
+}
+.portfolio-section__container {
+    padding: 93px 0px 145px 0px;
+}
+.portfolio-section__body {
+}
+.portfolio-section__title {
+    margin: 0px 0px 86px 0px;
+}
+.portfolio-section__text {
+    line-height: calc(25 / 18 * 100%);
+    font-weight: 600;
+    margin: 0px 0px 48px 0px;
+}
+.portfolio-section__items{
+    display: flex;
+}
+.portfolio-section__item {
+}
+.portfolio-section__item:nth-child(1){
+    flex: 1 1 31.50%;
+    margin: 0px 125px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portfolio-section__item:nth-child(1) .item__icons img:first-child{
+    margin: 0px 14px 0px 0px;
+}
+.portfolio-section__item:nth-child(2){
+    flex: 1 1 68.50%;
+    display: flex;
+}
+
+.item {
+}
+.item__text {
+    min-width: 349px;
+    line-height: calc(30 / 18 * 100%);
+    text-align: justify;
+}
+.item__icons img{
+    cursor: pointer;
+}
+.item__img-items {
+    display: flex;
+    flex-direction: column;
+}
+.item__img-items:nth-child(1){
+    margin: 0px 30px 0px 0px;
+}
+.item__img-items img:not(:last-child){
+    margin: 0px 0px 26px 0px;
+}
+.item__img-items img{
+    width: 100%;
+    height: 100%;
+}
+/* STYLING CLASS END*/
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+/* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+/* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+/* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+/* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+/* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+/* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+/* classes */
+}
+/* MEDIA QUERY END*/
+/* ---portfolio END---------------------------------------------- */
 
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
