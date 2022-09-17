@@ -41,7 +41,7 @@ html,
 body {
     height: 100%;
     /* background-color: var(--bg-color); */
-    background-color: red;
+    background-color: #F5D6AB;
     color: var(--main-color);
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
@@ -180,6 +180,8 @@ body {
     padding: 0px 15px;
 }
 .page__about-section {
+}
+.page__skills-section {
 }
 /* STYLING CLASS END*/
 /* MEDIA QUERY */
@@ -359,6 +361,103 @@ body {
 }
 /* MEDIA QUERY END*/
 /* ---about END---------------------------------------------- */
+
+/* ---skills---------------------------------------------- */
+/* STYLING CLASS */
+
+.skills-section {
+    min-height: 693px;
+    background-color: #FFFAF2;
+}
+.skills-section__container {
+    padding: 93px 0px 0px 0px;
+}
+.skills-section__body {
+}
+.skills-section__title {
+    margin: 0px 0px 86px 0px;
+
+}
+.skills-section__items {
+    display: flex;
+}
+.skills-section__item {
+}
+.skills-section__item:nth-child(1){
+    flex: 1 1 31.58%;
+    margin: 0px 125px 0px 0px;
+}
+.skills-section__item:nth-child(2){
+    flex: 1 1 68.41%;
+}
+.skills-section__box {
+    display: flex;
+}
+.skills-section__box:not(:last-child){
+    margin: 0px 0px 20px 0px;
+}
+.skills-section__box:nth-child(1){
+    margin: 0px 0px 65px 0px;
+}
+.box {
+    display: flex;
+}
+.box__name {
+    flex: 1 1 29.76%;
+}
+.box__skill {
+    flex: 1 1 70.23%;
+}
+.box__progress {
+    min-width: 446px;
+    height: 24px;
+    background-color: #F5D6AB;
+}
+.progress-bg{
+    height: 100%;
+    background-color: #C66C49;
+}
+.box:nth-child(2) .progress-bg {
+    width: 85.42%;
+}
+.box:nth-child(4) .progress-bg {
+    width: 78.70%;
+}
+.box:nth-child(6) .progress-bg {
+    width: 60.09%;
+}
+/* STYLING CLASS END*/
+/* MEDIA QUERY */
+/* max-width: 2560px 4K */
+@media (max-width: 2560px) {
+/* classes */
+}
+/* max-width: 1440 Laptop L */
+@media (max-width: 1440px) {
+/* classes */
+}
+/* max-width: 1024px Laptop */
+@media (max-width: 1024px) {
+/* classes */
+}
+/* max-width: 768px Table */
+@media (max-width: 768px) {
+/* classes */
+}
+/* max-width: 425px Mobile L */
+@media (max-width: 425px) {
+/* classes */
+}
+/* max-width: 375px Mobile M */
+@media (max-width: 375px) {
+/* classes */
+}
+/* max-width: 320px Mobile s */
+@media (max-width: 320px) {
+/* classes */
+}
+/* MEDIA QUERY END*/
+/* ---skills END---------------------------------------------- */
 
 /* ---FOOTER---------------------------------------------- */
 /* STYLING CLASS */
